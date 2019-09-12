@@ -1,0 +1,25 @@
+# List GPA
+List_GPA = [3,2.7,2.5,4]
+
+# insentif
+def insentif(input):
+        bonus = 500000
+        x = input * bonus
+        return x
+
+# Syarat dan Ketentuan
+for GPA in List_GPA:
+    print(GPA)
+    if GPA > 3:
+        print("Selamat anda mendapat insentif sebesar Rp. ", insentif(GPA))
+    else:
+        print("Maaf anda tidak mendapat insentif")
+
+
+        
+    
+
+       
+
+    
+
